@@ -1,0 +1,29 @@
+[package]
+name = "cumin-py"
+version = "0.1.0"
+authors = ["cympfh <cympfh@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "cumin_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+funty = "=1.0.1"
+cumin = "0.9.9"
+
+[dependencies.pyo3]
+version = "0.13.2"
+features = ["extension-module"]
+
+[target.x86_64-apple-darwin]
+rustflags = [
+  "-C", "link-arg=-undefined",
+  "-C", "link-arg=dynamic_lookup",
+]
+
+[target.aarch64-apple-darwin]
+rustflags = [
+  "-C", "link-arg=-undefined",
+  "-C", "link-arg=dynamic_lookup",
+]
