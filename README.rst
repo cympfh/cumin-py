@@ -34,3 +34,5 @@ Usage
     [a, a]
     """)
     # => [{'x': 1, 'y': 0}, {'x': 1, 'y': 0}]
+
+    cumin.load("conf.cumin")  # read ./conf.cumin

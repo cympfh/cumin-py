@@ -10,7 +10,7 @@ with open(path.join(this_directory, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="cumin-py",
-    version="0.0.3",
+    version="0.0.4",
     author="cympfh",
     author_email="cympfh@gmail.com",
     url="https://github.com/cympfh/cumin-py",
