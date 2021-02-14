@@ -7,7 +7,7 @@ Python Binding for [cumin](https://github.com/cympfh/cumin).
 ### from PyPI
 
 ```bash
-pip install cumin
+pip install cumin-py
 ```
 
 ### from Github
