@@ -10,7 +10,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 funty = "=1.0.1"
-cumin = "0.9.9"
+cumin = "0.9.10"
 
 [dependencies.pyo3]
 version = "0.13.2"
